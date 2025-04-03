@@ -1,0 +1,8 @@
+cookies:
+  - name: 'test-cookie'
+    value: 'value'
+    path: '/'
+    domain: 'tech.cognifide.com'
+    expiry: ''
+    secure: false
+    httpOnly: false

@@ -1,0 +1,70 @@
+main:
+  - title: "Quick-Start Guide"
+    url: /docs/getting-started/
+  - title: "Documentation"
+    url: /docs/
+  - title: "Contact us"
+    url: /contact/
+  - title: "GitHub"
+    url: https://github.com/Cognifide/bobcat
+docs:
+  - title: "Essentials"
+    children:
+      - title: "Getting started"
+        url: /docs/getting-started/
+      - title: "Bobcat modules"
+        url: /docs/modules/
+      - title: "Bobcat templates"
+        url: /docs/templates/
+      - title: "Configuring Bobcat"
+        url: /docs/configuring-bobcat/
+  - title: "Guides"
+    children:
+      - title: "Writing the first test"
+        url: /docs/guides/first-test/
+      - title: "Writing the first AEM Authoring Test"
+        url: /docs/guides/first-aem-test/
+  - title: "Core features"
+    children:
+      - title: "Overview"
+        url: /docs/modules/core/
+      - title: "WebDriver"
+        url: /docs/modules/core/webdriver/
+      - title: "Run Modes"
+        url: /docs/modules/core/runmodes/
+      - title: "PageObject and PageObjectInterface"
+        url: /docs/modules/core/pageobject/
+      - title: "Page Factory"
+        url: /docs/modules/core/pagefactory/
+      - title: "Explicit and implicit waiting"
+        url: /docs/modules/core/waiting/
+      - title: "Actions"
+        url: /docs/modules/core/actions/
+      - title: "Setting cookies"
+        url: /docs/modules/core/cookies/
+  - title: "AEM features"
+    children:
+      - title: "AEM modules"
+        url: /docs/modules/aem/
+      - title: "AEM compatibility"
+        url: /docs/modules/aem/compatibility/
+      - title: "Components configuration"
+        url: /docs/modules/aem/componentconfiguration/
+  - title: "Other modules"
+    children:
+      - title: "JUnit 5"
+        url: /docs/modules/junit5/
+      - title: "Traffic"
+        url: /docs/modules/traffic/
+      - title: "Email"
+        url: /docs/modules/email/
+  - title: Integrations
+    children:
+      - title: "Allure"
+        url: "/docs/allure/"
+      - title: "Cucumber"
+        url: "/docs/cucumber/"
+      - title: "Cloud providers"
+        url: "/docs/cloud-providers"
+  - title: "API docs"
+    url: "http://www.javadoc.io/doc/com.cognifide.qa.bb/bb-core/"
